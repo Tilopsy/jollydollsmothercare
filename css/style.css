@@ -1,0 +1,47 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    text-decoration: none;
+    list-style: none;
+}
+
+.header-bg {
+    font-style: normal;
+    background-image: url("../images/babyshoes.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 2rem 5rem;
+    margin: auto;
+    height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#logo {
+    text-decoration: none;
+    color: white;
+    font-size: 30pt;
+    font-weight: bolder;
+    font-family: cursive;
+}
+
+#nav-links {
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+
+}
+
+#ul-list {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+#ul-list a{
+    color: antiquewhite;
+}
